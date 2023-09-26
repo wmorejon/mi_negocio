@@ -1,5 +1,6 @@
 package com.unexus.minegocio.entity;
 
+import com.unexus.minegocio.entity.enums.IdentificationType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,9 +1,8 @@
 package com.unexus.minegocio.controller;
 
-import com.unexus.minegocio.entity.Client;
 import com.unexus.minegocio.entity.dto.AddressDto;
 import com.unexus.minegocio.entity.dto.ClientDto;
-import com.unexus.minegocio.service.ParameterType;
+import com.unexus.minegocio.entity.enums.ParameterType;
 import java.util.List;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

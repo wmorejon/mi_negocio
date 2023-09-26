@@ -1,11 +1,10 @@
 package com.unexus.minegocio.controller.impl;
 
 import com.unexus.minegocio.controller.IMiNegocioController;
-import com.unexus.minegocio.entity.Client;
 import com.unexus.minegocio.entity.dto.AddressDto;
 import com.unexus.minegocio.entity.dto.ClientDto;
 import com.unexus.minegocio.service.MiNegocioService;
-import com.unexus.minegocio.service.ParameterType;
+import com.unexus.minegocio.entity.enums.ParameterType;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

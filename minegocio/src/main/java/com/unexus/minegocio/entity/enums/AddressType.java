@@ -1,4 +1,4 @@
-package com.unexus.minegocio.entity;
+package com.unexus.minegocio.entity.enums;
 
 public enum AddressType {
 

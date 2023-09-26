@@ -1,10 +1,11 @@
 package com.unexus.minegocio.service;
 
 import com.unexus.minegocio.entity.Address;
-import com.unexus.minegocio.entity.AddressType;
+import com.unexus.minegocio.entity.enums.AddressType;
 import com.unexus.minegocio.entity.Client;
 import com.unexus.minegocio.entity.dto.ClientDto;
 import com.unexus.minegocio.entity.dto.AddressDto;
+import com.unexus.minegocio.entity.enums.ParameterType;
 import com.unexus.minegocio.repository.AddressRepository;
 import com.unexus.minegocio.repository.ClientRepository;
 import java.util.List;

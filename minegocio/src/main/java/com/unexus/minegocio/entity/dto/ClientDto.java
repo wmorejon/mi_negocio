@@ -1,8 +1,7 @@
 package com.unexus.minegocio.entity.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
-import com.unexus.minegocio.entity.IdentificationType;
+import com.unexus.minegocio.entity.enums.IdentificationType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
