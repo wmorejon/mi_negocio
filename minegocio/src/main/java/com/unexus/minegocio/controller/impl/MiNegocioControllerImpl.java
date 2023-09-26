@@ -27,8 +27,7 @@ public class MiNegocioControllerImpl implements IMiNegocioController {
     @Override
     public ResponseEntity<ClientDto> createClient(ClientDto clientDto) {
         try {
-            miNegocioService.createClient(clientDto);
-            return ResponseEntity.ok(clientDto);
+            return ResponseEntity.ok(miNegocioService.createClient(clientDto));
         } catch (RuntimeException e) {
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
         }

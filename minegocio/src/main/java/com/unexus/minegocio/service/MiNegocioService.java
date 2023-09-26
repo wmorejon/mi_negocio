@@ -32,7 +32,7 @@ public class MiNegocioService {
         return mapClientToClientDto(clientRepository.findByNameContaining(param));
     }
 
-    public void createClient(ClientDto clientDto) throws RuntimeException {
+    public ClientDto createClient(ClientDto clientDto) throws RuntimeException {
 
         if (clientRepository
                 .findByIdentificationNumber(clientDto.getIdentificationNumber())
@@ -59,6 +59,8 @@ public class MiNegocioService {
 
         clientRepository.save(client);
         addressRepository.save(address);
+
+        return clientDto;
     }
 
     public ClientDto updateClient(String identificationNumber, ClientDto clientDto) {
